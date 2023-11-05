@@ -23,3 +23,5 @@ if(BUILD_PY_FFI)
     add_subdirectory(python)
 endif()
 add_subdirectory(triton_backend)
+
+add_executable(main.cpp main)
